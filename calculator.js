@@ -1,4 +1,4 @@
-function addNumbers() {
+function add() {
   const calcResult = document.getElementById('calculation-result');
   const number1 = parseFloat(document.getElementById('number1').value) || 0;
   const number2 = parseFloat(document.getElementById('number2').value) || 0 ;
@@ -30,7 +30,7 @@ function divideNumbers() {
 
 //Add Button
 const addBtn = document.getElementById('add');
-addBtn.addEventListener('click', addNumbers);
+addBtn.addEventListener('click', add);
 
 //Subtract Button
 const subtractBtn = document.getElementById('subtract');
